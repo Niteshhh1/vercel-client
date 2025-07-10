@@ -1,5 +1,5 @@
 import React from 'react';
-import './ConsultationForm.css';
+import './consultationform.css';
 import {useForm} from 'react-hook-form';
 import axios from 'axios';
 // import bg1 from '../../../public/BG1.webp'
