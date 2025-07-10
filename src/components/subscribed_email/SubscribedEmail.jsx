@@ -21,7 +21,7 @@ function SubscribedEmail() {
 
   useEffect(()=>{
     async function fetch(){
-       const res = await axios.get('http://localhost:3000/api/admin/subscribed-emails');
+       const res = await axios.get('https://vercel-server-rwbj.vercel.app/api/admin/subscribed-emails');
        setEmail(res.data);
        console.log(res);
     }
