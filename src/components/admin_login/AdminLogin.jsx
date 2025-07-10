@@ -17,7 +17,7 @@ const AdminLogin = ({setadminlogin}) => {
   const handleLogin = async(e) => {
      e.preventDefault();
    try {
-        const res = await axios.post('http://localhost:3000/api/get/admin',credentials);
+        const res = await axios.post('https://vercel-server-rwbj.vercel.app/api/get/admin',credentials);
 
         const adminUser = res.data.user;
 
