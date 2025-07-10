@@ -10,7 +10,7 @@ const FooterSection = () => {
 
   const submitSubscribeEmail = async() => {
       try {
-        const res = await axios.post('http://localhost:3000/api/subscribe', { email: subscribeEmail });
+        const res = await axios.post('https://vercel-server-rwbj.vercel.app/api/subscribe', { email: subscribeEmail });
         console.log(res.data);
         alert("Subscribed Successfully")
         setSubcribeEmail('');
