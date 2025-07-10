@@ -28,7 +28,7 @@ const Projects = () => {
  const handleSubmit = async (e) => {
   e.preventDefault();
   try {
-    const res = await axios.post('http://localhost:3000/api/projects/create',formData);
+    const res = await axios.post('https://vercel-server-rwbj.vercel.app/api/projects/create',formData);
     // setProjects(res.data);
     console.log(res);
     fetch();
@@ -39,7 +39,7 @@ const Projects = () => {
   }
 };
 const fetch = async()=>{
-    const res = await axios.get('http://localhost:3000/api/projects/get/all');
+    const res = await axios.get('https://vercel-server-rwbj.vercel.app/api/projects/get/all');
     setProjects(res.data);
   }
 useEffect(()=>{
