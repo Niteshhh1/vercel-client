@@ -10,7 +10,7 @@ const ConsultationForm = () => {
 
    const submitForm = async(data)=>{
      try {
-        const res = await axios.post('http://localhost:3000/api/client/form',data);
+        const res = await axios.post('https://vercel-server-rwbj.vercel.app/api/client/form',data);
         console.log(res.data);
         alert("Data Send Successfully")
         reset();
