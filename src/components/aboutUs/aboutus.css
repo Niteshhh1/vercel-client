@@ -1,0 +1,44 @@
+.about-us {
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background-color: #2563eb;
+  margin: 10px auto 30px auto;
+  border-radius: 2px;
+}
+
+.about-text {
+  max-width: 700px;
+  margin: auto;
+  color: #444;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.learn-more-btn {
+  margin-top: 25px;
+  padding: 12px 25px;
+  font-size: 14px;
+  color: #2563eb;
+  background: transparent;
+  border: 2px solid #2563eb;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background-color: #2563eb;
+  color: white;
+}

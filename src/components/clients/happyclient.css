@@ -1,0 +1,61 @@
+.happy-clients {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #2563eb;
+}
+
+.clients-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.client-card {
+  width: 260px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.07);
+  padding: 30px 20px 20px;
+  position: relative;
+  text-align: center;
+}
+
+.client-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 3px solid white;
+  background-color: #eee;
+}
+
+.feedback {
+  font-size: 14px;
+  color: #555;
+  margin: 40px 0 10px;
+  line-height: 1.5;
+}
+
+.client-name {
+  color: #2563eb;
+  margin: 5px 0 0;
+  font-size: 15px;
+}
+
+.client-role {
+  font-size: 13px;
+  color: #777;
+}

@@ -1,0 +1,61 @@
+.why-choose-us {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background-color: #2563eb;
+  margin: 10px auto 30px auto;
+  border-radius: 2px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.choose-card {
+  background-color: #f9f9f9;
+  width: 280px;
+  padding: 25px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.icon-circle {
+  font-size: 32px;
+  background: #e0f0ff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2563eb;
+}
+
+.choose-card h3 {
+  font-size: 18px;
+  color: #2563eb;
+  margin: 15px 0 10px;
+}
+
+.choose-card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
