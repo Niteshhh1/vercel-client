@@ -30,7 +30,7 @@ function ContactForm() {
 
   useEffect(()=>{
     async function fetch(){
-       const res = await axios.get('http://localhost:3000/api/client/admin/all');
+       const res = await axios.get('https://vercel-server-rwbj.vercel.app/api/client/admin/all');
        setUser(res.data);
        console.log(res);
     }
